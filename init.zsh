@@ -42,6 +42,5 @@ p6df::modules::macosx::external::brew() {
 }
 
 p6df::modules::macosx::init() {
-}
 
-p6df::modules::macosx::init
+}
