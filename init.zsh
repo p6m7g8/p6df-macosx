@@ -58,5 +58,5 @@ p6df::modules::macosx::ssh() {
 
 p6_GLOBAL_macosx_ssh() {
 
-  p6_macosx_ssh ${1}.p6m7g8.net
+  p6_macosx_ssh_do ${1}.p6m7g8.net
 }
