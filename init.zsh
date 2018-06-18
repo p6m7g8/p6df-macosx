@@ -41,6 +41,11 @@ p6df::modules::macosx::external::brew() {
    brew cask install zoomus
 }
 
+p6df::modules::macosx::home::symlink() {
+
+  # XXX: tbd
+}
+
 p6df::modules::macosx::init() {
 
   p6df::modules::macosx::aliases::init
