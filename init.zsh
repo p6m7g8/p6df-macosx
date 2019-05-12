@@ -5,15 +5,14 @@ p6df::modules::macosx::deps()    {
 
 p6df::modules::macosx::external::brew() {
 
-   brew install freerdp
-
    brew tap caskroom/cask
    brew tap caskroom/versions
 
    brew cask install xquartz
+   brew install freerdp
 
    brew cask install alfred
-   brew cask install amazon-drive
+#   brew cask install amazon-drive
    brew cask install amazon-workspaces
    brew cask install bartender
    brew cask install dash
@@ -22,9 +21,12 @@ p6df::modules::macosx::external::brew() {
    brew cask install firefox
    brew cask install gitx
    brew cask install google-chrome
+   # Although google-backup-and-sync may be installed alongside google-drive-file-stream, you should not use the same account with both.
+   # https://support.google.com/a/answer/7496409#allowboth
+   # brew cask install google-drive-file-stream
    brew cask install google-backup-and-sync
+
    brew cask install google-hangouts
-   brew cask install hipchat
    brew cask install iterm2
    brew cask install onedrive
    brew cask install openoffice
@@ -39,11 +41,6 @@ p6df::modules::macosx::external::brew() {
    brew cask install vmware-fusion
    brew cask install wireshark
    brew cask install zoomus
-}
-
-p6df::modules::macosx::home::symlink() {
-
-  # XXX: tbd
 }
 
 p6df::modules::macosx::init() {
