@@ -14,6 +14,7 @@ p6df::modules::macosx::external::brew() {
    brew cask install alfred
 #   brew cask install amazon-drive
    brew cask install amazon-workspaces
+   brew cask install amazon-chime
    brew cask install bartender
    brew cask install dash
    brew cask install dropbox
