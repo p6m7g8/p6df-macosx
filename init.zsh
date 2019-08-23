@@ -54,12 +54,30 @@ p6df::modules::macosx::aliases::init() {
   alias mssh='p6df::modules::macosx::ssh'
 }
 
+##############################################################################
+# p6df::modules::macosx::ssh
+#  p6_GLOBAL_macosx_ssh
+#    p6_macosx_ssh_do
+#      p6_aws_ssh_svc_do
+#        p6_aws_ssh_svc_do
+#          p6_remote_ssh_do
+#            ssh
+#      p6_remote_ssh_do
+#        ssh
+#
+# p6_GLOBAL_aws_ssh_svc_do
+#  p6_aws_ssh_svc_do
+#     p6_aws_ssh_svc_do
+#        p6_remote_ssh_do
+#        ssh
+##############################################################################
 p6df::modules::macosx::ssh() {
 
-  p6_GLOBAL_macosx_ssh
+    p6_GLOBAL_macosx_ssh "$@"
 }
 
 p6_GLOBAL_macosx_ssh() {
+    local host="$1"
 
-  p6_macosx_ssh_do ${1}.p6m7g8.net
+    p6_macosx_ssh_do $host.p6m7g8.net
 }
