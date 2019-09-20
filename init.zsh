@@ -59,17 +59,15 @@ p6df::modules::macosx::aliases::init() {
 #  p6_GLOBAL_macosx_ssh
 #    p6_macosx_ssh_do
 #      p6_aws_ssh_svc_do
-#        p6_aws_ssh_svc_do
-#          p6_remote_ssh_do
-#            ssh
+#        p6_remote_ssh_do
+#          ssh
 #      p6_remote_ssh_do
 #        ssh
 #
 # p6_GLOBAL_aws_ssh_svc_do
 #  p6_aws_ssh_svc_do
-#     p6_aws_ssh_svc_do
-#        p6_remote_ssh_do
-#        ssh
+#    p6_remote_ssh_do
+#      ssh
 ##############################################################################
 p6df::modules::macosx::ssh() {
 
