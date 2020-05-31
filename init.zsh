@@ -44,6 +44,8 @@ p6df::modules::macosx::external::brew() {
   brew cask install dropbox  
   brew cask install firefox
   brew cask install gitx
+  brew cask install gitter
+
   # brew cask install openoffice
   # brew cask install omnigraffle
   brew cask install slack
