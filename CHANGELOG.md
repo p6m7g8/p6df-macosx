@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/p6m7g8/p6df-macosx/compare/v1.0.1...v2.0.0) (2020-10-11)
+
+
+### Bug Fixes
+
+* **deps:** fix depends ([#5](https://github.com/p6m7g8/p6df-macosx/issues/5)) ([8ab7d8b](https://github.com/p6m7g8/p6df-macosx/commit/8ab7d8b2819b4d1b916655c1a1711e2d4bd63b9f))
+
 ### [1.0.1](https://github.com/p6m7g8/p6df-macosx/compare/v1.0.0...v1.0.1) (2020-09-20)
 
 
