@@ -129,7 +129,7 @@ p6df::modules::macosx::ssh() {
 # Function: p6_GLOBAL_macosx_ssh(host)
 #
 #  Args:
-#	host - 
+#	host -
 #
 #>
 ######################################################################
