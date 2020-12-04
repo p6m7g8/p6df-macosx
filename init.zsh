@@ -21,57 +21,57 @@ p6df::modules::macosx::deps()    {
 ######################################################################
 p6df::modules::macosx::external::brew() {
 
-  brew tap caskroom/cask
-  brew tap caskroom/versions
+  brew tap homebrew/cask
+  brew tap homebrew/cask-versions
 
   ## Remote Desktop Compat
-  brew cask install xquartz
+  brew install --cask xquartz
   brew install freerdp
 
   ## Amazon
-  brew cask install amazon-workspaces
-  brew cask install amazon-chime
-  brew cask install amazon-drive
+  brew install --cask amazon-workspaces
+  brew install --cask amazon-chime
+#  brew install --cask amazon-drive
 
   ## Google
-  brew cask install google-chrome
-  brew cask install google-hangouts
-  # https://support.google.com/a/answer/7496409#allowboth: brew cask install google-drive-file-stream
-  brew cask install google-backup-and-sync
+  brew install --cask google-chrome
+  brew install --cask google-hangouts
+  # https://support.google.com/a/answer/7496409#allowboth: brew install --cask google-drive-file-stream
+#  brew install --cask google-backup-and-sync
   
   ## Microsoft
-  brew cask install microsoft-edge
-  brew cask install microsoft-excel
-  brew cask install microsoft-lync
-  brew cask install microsoft-office
-  brew cask install onedrive
-  brew cask install evernote
-  brew cask install skype
-  brew cask install skype-for-business
+  brew install --cask microsoft-edge
+#  brew install --cask microsoft-excel
+  brew install --cask microsoft-lync
+  brew install --cask microsoft-office
+#  brew install --cask onedrive
+  brew install --cask evernote
+  brew install --cask skype
+  brew install --cask skype-for-business
 
   ## Mac
-  brew cask install alfred
-  brew cask install dash
-  brew cask install iterm2
-  brew cask install skitch
+  brew install --cask alfred
+  brew install --cask dash
+  brew install --cask iterm2
+  brew install --cask skitch
 
   ## Other 
-  brew cask install bartender
-  brew cask install dropbox  
-  brew cask install firefox
-  brew cask install gitx
-  brew cask install gitter
+  brew install --cask bartender
+  brew install --cask dropbox  
+  brew install --cask firefox
+  brew install --cask gitx
+#  brew install --cask gitter
 
-  # brew cask install openoffice
-  # brew cask install omnigraffle
-  brew cask install slack
-  brew cask install squidman
-  brew cask install vagrant
-  brew cask install virtualbox
-  brew cask install vlc
-  brew cask install vmware-fusion
-  brew cask install wireshark
-  brew cask install zoomus
+  # brew install --cask openoffice
+  # brew install --cask omnigraffle
+  brew install --cask slack
+  brew install --cask squidman
+  brew install --cask vagrant
+  brew install --cask virtualbox
+  brew install --cask vlc
+  brew install --cask vmware-fusion
+  brew install --cask wireshark
+#  brew install --cask zoomus
 }
 
 ######################################################################
