@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/p6m7g8/p6df-macosx/compare/v2.0.0...v2.1.0) (2020-12-06)
+
+
+### Features
+
+* **api:** centralize ::version() ([58a97ce](https://github.com/p6m7g8/p6df-macosx/commit/58a97cee6e7c66fa019ae842a5b296aa9b95b000))
+* **community:** adds CODE_OF_CONDUCT ([e20005f](https://github.com/p6m7g8/p6df-macosx/commit/e20005f5104be6a729717a1a14f50f11cb57ca4d))
+* **github:** adds ISSUE_TEMPLATEs ([12b2a51](https://github.com/p6m7g8/p6df-macosx/commit/12b2a5130843239e336cfe12b3782876bed3e545))
+
+
+### Bug Fixes
+
+* **langs:** caskroom -> hombrew for taps, cask -> --cask, comment out duplicates ([#14](https://github.com/p6m7g8/p6df-macosx/issues/14)) ([5cd536d](https://github.com/p6m7g8/p6df-macosx/commit/5cd536d5c59a34afacd95f12a3548594d08521fc))
+
+
+* **community:** rely on the .github/ in the org ([#12](https://github.com/p6m7g8/p6df-macosx/issues/12)) ([c08de29](https://github.com/p6m7g8/p6df-macosx/commit/c08de29b97f29518fb7d6130fa938aded701e8cb))
+* **docs:** fixes whitespace ([ca5e324](https://github.com/p6m7g8/p6df-macosx/commit/ca5e324dd6814402c043477848fb292662aaf2be))
+* **README:** fixes module expansion, adds CodeCov and Synk badges ([#13](https://github.com/p6m7g8/p6df-macosx/issues/13)) ([a758e89](https://github.com/p6m7g8/p6df-macosx/commit/a758e8949384e06e942cf02d7bfffd058a2db70a))
+* **README:** updates to template v2.0 ([2d88bb7](https://github.com/p6m7g8/p6df-macosx/commit/2d88bb77924deed35b0517f895a6161a6b8e8d04))
+* **semantic:** no longer needed, defaults are fine ([3d26c80](https://github.com/p6m7g8/p6df-macosx/commit/3d26c80a9eb6c3acd6bb6c9a4e51ec6cdab7c13d))
+
 ## [2.0.0](https://github.com/p6m7g8/p6df-macosx/compare/v1.0.1...v2.0.0) (2020-10-11)
 
 
