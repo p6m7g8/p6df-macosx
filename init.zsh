@@ -1,4 +1,3 @@
-
 ######################################################################
 #<
 #
@@ -49,10 +48,10 @@ p6df::modules::macosx::external::brew() {
   # XXX: no cask for onenote, only in microsoft-office
   
   ## Old Microsoft
-  brew install --cask microsoft-lync
-  brew install --cask evernote
-  brew install --cask skype
-  brew install --cask skype-for-business
+#  brew install --cask evernote
+#  brew install --cask microsoft-lync
+#  brew install --cask skype
+#  brew install --cask skype-for-business
 
   ## Mac
   brew install --cask alfred
@@ -63,9 +62,10 @@ p6df::modules::macosx::external::brew() {
   ## Other 
   brew install --cask bartender
   brew install --cask dropbox  
+  brew install --cask brave
   brew install --cask firefox
   brew install --cask gitx
-#  brew install --cask gitter
+  brew install --cask gitter
 
   # brew install --cask openoffice
   # brew install --cask omnigraffle
@@ -100,7 +100,7 @@ p6df::modules::macosx::init() {
 ######################################################################
 p6df::modules::macosx::aliases::init() {
 
-  alias mssh='p6df::modules::macosx::ssh'
+  alias p6mssh='p6df::modules::macosx::ssh'
 }
 
 # p6df::modules::macosx::ssh
