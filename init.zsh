@@ -39,12 +39,13 @@ p6df::modules::macosx::external::brew() {
 #  brew install --cask google-backup-and-sync
   
   ## Microsoft
-  brew install --cask onedrive
-  brew install --cask microsoft-edge
-  brew install --cask microsoft-outlook
-  brew install --cask microsoft-excel
-  brew install --cask microsoft-word
-  brew install --cask microsoft-powerpoint
+#  brew install --cask onedrive
+#  brew install --cask microsoft-edge
+#  brew install --cask microsoft-outlook
+#  brew install --cask microsoft-excel
+#  brew install --cask microsoft-word
+#  brew install --cask microsoft-powerpoint
+  brew install --cask microsoft-office
   # XXX: no cask for onenote, only in microsoft-office
   
   ## Old Microsoft
