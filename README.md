@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6df-macosx:
+
+#### p6df-macosx/init.zsh:
 
 - p6_GLOBAL_macosx_ssh(host)
 - p6df::modules::macosx::aliases::init()
