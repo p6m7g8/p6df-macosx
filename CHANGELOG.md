@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/p6m7g8/p6df-macosx/compare/v2.1.0...v2.1.1) (2021-04-04)
+
+
+### Features
+
+* **brew:** replaces microsoft-office with individual casks ([#15](https://github.com/p6m7g8/p6df-macosx/issues/15)) ([b270367](https://github.com/p6m7g8/p6df-macosx/commit/b27036725ca92d0f3cad57fe8779e80105998d28))
+
+
+* **link:** remove rendundant symlinks; echo for now ([#20](https://github.com/p6m7g8/p6df-macosx/issues/20)) ([a89d8de](https://github.com/p6m7g8/p6df-macosx/commit/a89d8de51e903672e1440c1c29edb2457dccc9b9))
+* **README:** updates generator ([#18](https://github.com/p6m7g8/p6df-macosx/issues/18)) ([f03bfc4](https://github.com/p6m7g8/p6df-macosx/commit/f03bfc45861c3c4f08a6b7d0c2d8a68afcc57cdb))
+* the great vscode indent of 2021 ([#19](https://github.com/p6m7g8/p6df-macosx/issues/19)) ([e135e30](https://github.com/p6m7g8/p6df-macosx/commit/e135e30b0fa9a2d49b112edb26415d8c173cfc3a))
+* **deps:** back to the suite, its not a version issue ([#17](https://github.com/p6m7g8/p6df-macosx/issues/17)) ([4a05b0b](https://github.com/p6m7g8/p6df-macosx/commit/4a05b0bd27c65bff37173af93b740d50b4b366c5))
+* **deps:** bring current; deconflict mssh ([#16](https://github.com/p6m7g8/p6df-macosx/issues/16)) ([b92d0d9](https://github.com/p6m7g8/p6df-macosx/commit/b92d0d95b67f71d8a72d5728e961f4ddeab42e21))
+* Coc -> .github ([959fb41](https://github.com/p6m7g8/p6df-macosx/commit/959fb4126bb780f0d9ca01deccfbf7d328dacbb3))
+
 ## [2.1.0](https://github.com/p6m7g8/p6df-macosx/compare/v2.0.0...v2.1.0) (2020-12-06)
 
 
