@@ -47,7 +47,7 @@ p6df::modules::macosx::external::brew() {
   ## Other
   brew install --cask bartender
   brew install --cask dropbox
-  brew install --cask brave
+  brew install --cask brave-browser
   brew install --cask firefox
   brew install --cask gitx
   brew install --cask gitter
