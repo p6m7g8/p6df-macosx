@@ -35,9 +35,6 @@ p6df::modules::macosx::external::brew() {
   brew install --cask google-chrome
   brew install --cask google-hangouts
 
-  ## Microsoft
-  brew install --cask microsoft-office
-
   ## Mac
   brew install --cask alfred
   brew install --cask dash
